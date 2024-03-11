@@ -1,0 +1,19 @@
+public class Baguette extends Bread{
+    private double length;
+
+    private int slices = 7;
+
+    public Baguette(Double l, String t){
+        super(t);
+        length = l;
+    }
+    public void bred(){
+        System.out.println("I love baguette!");
+    }
+    public void slice(){
+        System.out.println("The baguette has been sliced into " + slices + " pieces.");
+    }
+    public void size(){
+        System.out.println("This baguette is " + length + " cm long.");
+    }
+}
