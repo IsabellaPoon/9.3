@@ -1,0 +1,20 @@
+public class Bread {
+
+
+    private int slices = 4;
+    private String type;
+
+    public Bread(String t){
+        type = t;
+    }
+    public void slice(){
+        System.out.println("The bread has been sliced into " + slices + " pieces.");
+    }
+    public String getType(){
+        return type;
+    }
+    public void bred(){
+        System.out.println("I love bread!");
+    }
+    public Bread(){}
+}
