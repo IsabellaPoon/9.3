@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        Bread bread = new Bread();
+        Baguette bag = new Baguette(31.4,"Baguette");
+        bag.size();
+        Croissant crois = new Croissant();
+        System.out.println(crois.getType());
+        bread.bred();
+        bag.bred();
+        bread.slice();
+        bag.slice();
+    }
+}
